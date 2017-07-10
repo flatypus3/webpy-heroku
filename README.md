@@ -24,5 +24,7 @@ or using the development server
 
 ## Running on Heroku
 
-    heroku create
+    heroku create    
+    # Gunicorn Concurrency
+    heroku config:set WEB_CONCURRENCY=3
     git push heroku master
