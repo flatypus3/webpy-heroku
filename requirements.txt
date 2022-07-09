@@ -1,4 +1,4 @@
 gunicorn==19.7.1
-web.py==0.38
+web.py==0.62
 whitenoise==3.3.0
 -e git://github.com/jzellman/webpy-crust.git#egg=webpy_crust-master
